@@ -388,7 +388,7 @@ def upscale_image(latest_ai_generated_img_url: str, prompt: str) -> str:
 if __name__ == "__main__":
 
     base_prompt = "a woman with red hair, wear a black jacket, in a cafe in paris"
-    image_url = ""
+    image_url = "https://steve-halls.github.io/autogen-virtual-try-on/jacket_2.jpeg"
 
     generate_img(image_url, base_prompt)
 

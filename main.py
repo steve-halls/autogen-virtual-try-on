@@ -133,7 +133,7 @@ group_chat_manager = GroupChatManager(
 )
 
 base_prompt = "a woman with red hair, wear a blue jacket, in a cafe in paris"
-cloth_img = ""
+cloth_img = "https://steve-halls.github.io/autogen-virtual-try-on/jacket_2.jpeg"
 
 
 chat_result = user_proxy.initiate_chats(
